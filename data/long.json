@@ -1,0 +1,75 @@
+{
+    "input_file": "../data/bfo_logon_long.png",
+    "output_prefix": "../out/bfo_logon_long/",
+    "x_axis": {
+        "shown_units":[0, 2500],
+        "pixels":[122, 1052]
+    },
+    "y_axis": {
+        "shown_units":[-100, 500],
+        "pixels":[749, 16]
+    },
+    "ignore": {
+        "x": [814, 1052],
+        "y": [412, 742]
+    },
+    "debug": "no",
+    "series": [
+        {
+            "name": "Logon 1",
+            "element": {
+                "center": [863, 443],
+                "size": 14
+            },
+            "y_range": [144, 244]
+        },
+        {
+            "name": "Logon 2",
+            "element": {
+                "center": [863, 488],
+                "size": 14
+            },
+            "y_range": [26, 168]
+        },
+        {
+            "name": "Logon 3",
+            "element": {
+                "center": [863, 533],
+                "size": 14
+            },
+            "y_range": [644, 729]
+        },
+        {
+            "name": "Logon 4",
+            "element": {
+                "center": [863, 578],
+                "size": 14
+            },
+            "y_range": [9, 82]
+        },
+        {
+            "name": "Logon 5",
+            "element": {
+                "center": [863, 623],
+                "size": 14
+            },
+            "y_range": [150, 222]
+        },
+        {
+            "name": "Logon 6",
+            "element": {
+                "center": [863, 668],
+                "size": 14
+            },
+            "y_range": [33, 236]
+        },
+        {
+            "name": "Logon 7",
+            "element": {
+                "center": [863, 713],
+                "size": 14
+            },
+            "y_range": [278, 472]
+        }
+    ]
+}
