@@ -13,7 +13,7 @@
         "x": [814, 1052],
         "y": [412, 742]
     },
-    "debug": "no",
+    "debug": "yes",
     "series": [
         {
             "name": "Logon 1",
@@ -21,7 +21,7 @@
                 "center": [863, 443],
                 "size": 14
             },
-            "y_range": [144, 244]
+            "y_range": [244, 144]
         },
         {
             "name": "Logon 2",
@@ -29,7 +29,7 @@
                 "center": [863, 488],
                 "size": 14
             },
-            "y_range": [26, 168]
+            "y_range": [168, 26]
         },
         {
             "name": "Logon 3",
@@ -37,7 +37,7 @@
                 "center": [863, 533],
                 "size": 14
             },
-            "y_range": [644, 729]
+            "y_range": [729, 644]
         },
         {
             "name": "Logon 4",
@@ -45,7 +45,7 @@
                 "center": [863, 578],
                 "size": 14
             },
-            "y_range": [9, 82]
+            "y_range": [82, 9]
         },
         {
             "name": "Logon 5",
@@ -53,7 +53,7 @@
                 "center": [863, 623],
                 "size": 14
             },
-            "y_range": [150, 222]
+            "y_range": [222, 150]
         },
         {
             "name": "Logon 6",
@@ -61,7 +61,7 @@
                 "center": [863, 668],
                 "size": 14
             },
-            "y_range": [33, 236]
+            "y_range": [236, 33]
         },
         {
             "name": "Logon 7",
@@ -69,7 +69,7 @@
                 "center": [863, 713],
                 "size": 14
             },
-            "y_range": [278, 472]
+            "y_range": [472, 278]
         }
     ]
 }
