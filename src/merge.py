@@ -55,7 +55,7 @@ def main(args):
         data = [read_file('/'.join((folder, label, filename))) for label in sources]
         ordered = [sorted(rows, key=lambda x: x[0]) for rows in data]
         merged = merge(ordered)
-        with open(folder+'/'+filename,'wt') as out_file:
+        with open(folder+'/'+filename, 'wt') as out_file:
             out_file.write(dataset['name']+'\t'+dataset['time']+'\n')
             out_file.write('Time, sec\tBFO, Hz\n')
             for row in merged:
