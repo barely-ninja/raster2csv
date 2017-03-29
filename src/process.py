@@ -60,7 +60,7 @@ def main(args):
         res_mask[y_ign[0]:y_ign[1], x_ign[0]:x_ign[1]] = True
         masked_result = np.ma.masked_array(result, mask=res_mask)
 
-        coords = peak_local_max(masked_result, min_distance=1, threshold_rel=0.3, num_peaks=15)
+        coords = peak_local_max(masked_result, min_distance=1, threshold_rel=0.5, num_peaks=15)
 
         try:
             manual_picks = np.array([[x[1], x[0]] for x in series['manual']])
@@ -72,8 +72,9 @@ def main(args):
             xvals = coords[:, 1]
             yvals = coords[:, 0]
             pad = 20
-            plt.plot(xvals, yvals, 'r.')
-            plt.imshow(masked_result, cmap='gray')
+            plt.plot(xvals, yvals, 'g+', markersize=20)
+            plt.imshow(image)
+            #plt.imshow(masked_result, cmap='gray')
             plt.xlim([xvals.min()-pad, xvals.max()+pad])
             plt.ylim([yvals.max()+pad, yvals.min()-pad])
             plt.savefig(out_fn+'.png')

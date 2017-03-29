@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Logon 1",
+        "time": "23-02-2014 23:57Z",
+        "no_power_bnds":[381, 442]
+    },
+    {
+        "name": "Logon 2",
+        "time": "26-02-2014 14:11Z",
+        "no_power_bnds":[295, 354]
+    },
+    {
+        "name": "Logon 3",
+        "time": "05-03-2014 03:06Z",
+        "no_power_bnds":[35, 95]
+    },
+    {
+        "name": "Logon 4",
+        "time": "06-03-2014 13:29Z",
+        "no_power_bnds":[43, 103]
+    },
+    {
+        "name": "Logon 5",
+        "time": "06-03-2014 15:02Z",
+        "no_power_bnds":[35, 92]
+    },
+    {
+        "name": "Logon 6",
+        "time": "07-03-2014 12:50Z",
+        "no_power_bnds":[228, 288]
+    },
+    {
+        "name": "Logon 7",
+        "time": "07-03-2014 18:25Z",
+        "no_power_bnds":[20, 78]
+    }
+]
